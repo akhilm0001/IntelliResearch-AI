@@ -1,0 +1,72 @@
+[
+  {
+    "id": "39a01d874da647208e5d2ec3ee5dcb0f",
+    "time": "2026-11-22 13:23",
+    "question": "what is esris",
+    "mode": "quick",
+    "web": false,
+    "model": "gemma4:latest",
+    "docs": [
+      "ESRIS.pdf"
+    ],
+    "report": "ES-RIS is defined as a Power-Adaptive Intelligent Surface, characterized by the following features:\n\n*   **Core Novelty:** It integrates the non-linear, power-level-dependent electromagnetic response characteristics of an Electromagnetic Shielding Surface (ESS) with the programmable phase-amplitude control capabilities of a Reconfigurable Intelligent Surface (RIS) into a single surface architecture (ESRIS.pdf | Page: 4).\n*   **Functionality:** ES-RIS possesses intelligence that allows it to detect the energy level of incident electromagnetic waves in real time and autonomously switches its operating mode according to that level (ESRIS.pdf | Page: 4).\n*   **Application:** It is described as a Power-Adaptive Paradigm designed for Secure 6G Communications (ESRIS.pdf | Page: 8).",
+    "steps": [],
+    "evidence": [
+      {
+        "source": "ESRIS.pdf",
+        "page": 8,
+        "text": "I.-P. Hong et al.: ES-RIS: A Power-Adaptive Paradigm for Secure 6G Communications\nFIGURE 7. A typical ES-RIS unit cell.\nmetasurface-based structures, both can be periodic arrays,\nboth can operate based on surface impedance control, and\nboth can be subwavelength structures. Therefore, simulta-\nneous implementation is possible in a single metasurface\nstructure where a varactor diode can be used to design the\nRIS. A nonlinear diode can be used to design an ESS.\nA validity flow diagram of an ES-RIS is shown in Fig. 6.\nTo measure the performance of an ES-RIS, several measuring\ninstruments are required, as shown in Fig. 6, such as a signal\ngenerator, power amplifier, spectrum analyzer, etc. It demon-\nstrates how the system can be controlled under controlled"
+      },
+      {
+        "source": "ESRIS.pdf",
+        "page": 3,
+        "text": "Functionality in Existing ESSs: ESSs provide a function\nto protect electronic equipment from HPM by utilizing\nnonlinear electromagnetic characteristics that automatically\nswitch between transmission and blocking modes depending\non the incident power level [29]. By utilizing a periodic\nmetal structure loaded with PIN diodes, it is possible to\nsimultaneously achieve an insertion loss of less than 1 dB\nfor low-power signals and shielding efficiency of more than\n24 dB for high-power signals [29]. However, ESS has an\ninherent limitation in that, as a purely passive electromagnetic\nprotection device, it cannot provide any active functions\nsuch as communication quality improvement, beamforming,\nor channel environment reconfiguration [30]. Fig. 1 shows the"
+      },
+      {
+        "source": "ESRIS.pdf",
+        "page": 9,
+        "text": "ZESS(Pin) → Rlow (4)\nThus, the equivalent impedance becomes:\nZES-RIS ≈ ZESS (5)\nIn high-power environments, the ESS component’s\nimpedance drops to a very low resistance (Rlow). This leads to\nstrong absorption or reflection depending on the impedance\nmatching condition.\n93336 VOLUME 14, 2026"
+      },
+      {
+        "source": "ESRIS.pdf",
+        "page": 4,
+        "text": "‘‘ES-RIS.’’ The core novelty of ES-RIS is as follows:\n1) Heterogeneous Technology Convergence of ESS\nand RIS: Power-Adaptive Intelligent Surface: The most\nfundamental novelty of ES-RIS lies in integrating the non-\nlinear power-level-dependent electromagnetic response char-\nacteristics of ESS and the programmable phase-amplitude\ncontrol capabilities of RIS into a single surface architecture.\nWhile existing RIS research performed fixed reflection\noperations regardless of the power level of the received\nsignal [13], ES-RIS possesses intelligence that detects\nthe energy level of incident electromagnetic waves in\nreal time and autonomously switches the operating mode\naccording to the level. Specifically, when a low-power\ncommunication signal is incident, it performs precise beam"
+      }
+    ]
+  },
+  {
+    "id": "16fc1a50919643b7889bdfc5c082df24",
+    "time": "2026-11-22 13:20",
+    "question": "advantages of es ris system",
+    "mode": "quick",
+    "web": false,
+    "model": "gemma4:latest",
+    "docs": [
+      "ESRIS.pdf"
+    ],
+    "report": "The advantages of the ES-RIS system include:\n\n*   **Multifunctional and Power-Adaptive Behavior:** The system possesses a multifunctional power-adaptive behavior that has not been reported in existing RIS or ESS frameworks, utilizing an alternative operating mechanism compared to existing RIS-related technologies (ESRIS.pdf | Page: 3).\n*   **Enhanced Capabilities:** It offers capabilities such as communication quality improvement, beamforming, or channel environment reconfiguration (ESRIS.pdf | Page: 3).\n*   **Security Functionality:** In terms of security, the ES-RIS can suppress harmful signals (ESRIS.pdf | Page: 11).\n*   **Cognitive Adaptation:** The cognitive electromagnetic surface concept allows the system to adapt itself to the environment by taking into account signal strength, interference, and channel conditions, utilizing AI and machine learning (ESRIS.pdf | Page: 11).\n*   **Operational Modes and Control:** The ES-RIS can operate in different modes, such as communication mode, security mode, and energy harvesting mode, and features automatic mode switching that operates without any external control (ESRIS.pdf | Page: 11).",
+    "steps": [],
+    "evidence": [
+      {
+        "source": "ESRIS.pdf",
+        "page": 8,
+        "text": "I.-P. Hong et al.: ES-RIS: A Power-Adaptive Paradigm for Secure 6G Communications\nFIGURE 7. A typical ES-RIS unit cell.\nmetasurface-based structures, both can be periodic arrays,\nboth can operate based on surface impedance control, and\nboth can be subwavelength structures. Therefore, simulta-\nneous implementation is possible in a single metasurface\nstructure where a varactor diode can be used to design the\nRIS. A nonlinear diode can be used to design an ESS.\nA validity flow diagram of an ES-RIS is shown in Fig. 6.\nTo measure the performance of an ES-RIS, several measuring\ninstruments are required, as shown in Fig. 6, such as a signal\ngenerator, power amplifier, spectrum analyzer, etc. It demon-\nstrates how the system can be controlled under controlled"
+      },
+      {
+        "source": "ESRIS.pdf",
+        "page": 3,
+        "text": "alternative operating mechanism compared to existing RIS-\nrelated technologies. This multifunctional power-adaptive\nbehavior has not been reported in existing RIS or ESS\nframeworks. In this paper, we have added two prospective\ntypes of ES-RIS, and we have verified this ES-RIS using\n93330 VOLUME 14, 2026"
+      },
+      {
+        "source": "ESRIS.pdf",
+        "page": 3,
+        "text": "such as communication quality improvement, beamforming,\nor channel environment reconfiguration [30]. Fig. 1 shows the\nlimitations of the existing RIS. It also shows the capabilities\nof our proposed ES–RIS.\nIII. NOVELTY JUSTIFICATION AND COMPARISON WITH\nEXISTING RIS\nConventional passive types of RIS have fixed beamforming\ncapabilities; however, this type of RIS does not have capabil-\nities to protect from HPM/EMP signals or other functions.\nActive RIS has dynamic beam-forming capabilities. How-\never, future networks require additional functionality from the\nRIS. There are other types of RIS, like zeRIS/EH-RIS, which\nhave beam steering and self-powering capabilities. Unlike\npreviously proposed RISs, where it was assumed that the\nimpinging power on the RIS would be steady, the proposed"
+      },
+      {
+        "source": "ESRIS.pdf",
+        "page": 11,
+        "text": "ability are important. In terms of security, it can suppress\nharmful signals. Third, the cognitive electromagnetic surface\nis a new concept. It works with AI and machine learning. So it\ncan adapt itself to the environment. It takes into account signal\nstrength, interference, and channel conditions. ES-RIS can\noperate in different modes. Such as communication mode,\nsecurity mode, and energy harvesting mode. Sensing mode\nmay also be added in the future. Automatic mode switching\nis a big feature here. It works without any external control.\nAI-based control will be more important in the future. There\nare some other research opportunities outside of the field.\n93338 VOLUME 14, 2026"
+      }
+    ]
+  }
+]
